@@ -1,0 +1,48 @@
+.bi-lightning-charge-fill::before {
+    color: rgb(28 229 229 / 73%)!important ;
+}
+.bi-list::before{
+    font-size: 2rem;
+    transform: scaleX(1.5);
+
+}
+
+
+.sidebar{
+    width: 280px;
+}
+.small-sidebar{
+    width: 88px;
+}
+
+.small-sidebar .small-text{
+    display: none;
+}
+
+.small-sidebar .bi-lightning-charge-fill::before {
+    content: "\F46D ";
+    transform:rotateY(360deg) ;
+    transition: 1s;
+    margin-left: 0,6rem;
+}
+
+.bi-lightning-charge-fill{
+    rotate: 30deg;
+    transition: 1s;
+    margin-top: 1rem;
+}
+.small-sidebar .bi-lightning-charge{
+    margin-top: 2,5;
+
+}
+
+.bi-x-circle-fill{
+    font-size: 1,6 rem;
+
+}
+
+.small-sidebar .bi-x-circle::before{
+    content: "\F134";
+    transition: 1s;
+
+}
